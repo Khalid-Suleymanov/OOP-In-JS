@@ -47,7 +47,8 @@ console.log(sameLetter(name1.toLowerCase()));
 /*Elə bir metod yazın ki parametr olaraq cümlə qəbul eləsin və
 həmin cümlədə sözlərin sayını tapan alqoritm yazın.
 
-let stc = "Cümlədə sözlərin sayını tapan alqoritm yazın."
+let stc1 = "Cümlədə sözlərin sayını tapan alqoritm yazın."
+let stc = stc1.trim()
 let count = 1
 function StcNums() {
     for (let i = 0; i < stc.length; i++) {
